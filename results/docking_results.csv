@@ -1,0 +1,12 @@
+name,category,affinity,smiles
+LY-364947,known,-9.3,c1[nH]nc(c1-c1ccnc2ccccc12)-c1ccccn1
+SB-431542,known,-10.7,NC(=O)c1ccc(cc1)-c1nc(c([nH]1)-c1ccccn1)-c1ccc2OCOc2c1
+galunisertib,known,-10.4,Cc1ccc(cc1)C2=NC3=C(C=NN3C2=O)N4CCN(CC4)C(=O)c5ccncc5
+SB-505124,known,-9.7,CC(C)(C)c1ccc(cc1)n2c3ccccc3nc2-c2ccc3OCOc3c2
+RepSox,known,-9.1,c1ccncc1-c1nnc(-c2ccccn2)c2ccccc12
+Y-27632,hit,-7.7,C[C@@H](N)[C@H]1CC[C@@H](CC1)C(=O)Nc1ccncc1
+Y-39983,hit,-9.1,C[C@@H](N)c1ccc(cc1)C(=O)Nc1ccnc2[nH]ccc12
+fasudil,hit,-7.9,O=S(=O)(N1CCCNCC1)c1cccc2cnccc12
+YC-1,hit,-8.8,OCc1ccc(o1)c2nn(Cc3ccccc3)c4ccccc24
+dipyridamole,hit,-7.7,OCCN(CCO)c1nc(N2CCCCC2)c2nc(nc(N3CCCCC3)c2n1)N(CCO)CCO
+irbesartan,control,-8.4,CCCCC1=NC2(CCCC2)C(=O)N1Cc1ccc(cc1)-c1ccccc1-c1nnn[nH]1

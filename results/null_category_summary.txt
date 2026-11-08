@@ -1,0 +1,10 @@
+Category-level permutation test: n = 200 shuffled signatures
+Compounds in library: 9597
+
+group                         n_lib    real  null median  null 5%  empirical P
+--------------------------------------------------------------------------------
+ROCK inhibitors (hits)            5     190         3003      288        0.030
+ALK5 inhibitors (known)           2      65         2726      322        0.010
+RAS inhibitors (ARB)              9    1518         1398      613        0.582
+RAS inhibitors (ACEi)             9    2119         2047      831        0.532
+Nephrotoxic agents               12    2936         3175     1677        0.408

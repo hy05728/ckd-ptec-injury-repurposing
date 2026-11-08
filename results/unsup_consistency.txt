@@ -1,0 +1,36 @@
+==================================================================
+marker-based injury definition vs unsupervised PTEC state structure
+==================================================================
+
+PTEC subset: 7788 cells (1519 injured, 6269 healthy)
+
+--- clustering: all genes ---
+  clusters: 16
+  ARI = 0.033   NMI = 0.055
+  injured fraction per cluster (top 6):
+    cluster   1: n= 771  injured_frac=0.62
+    cluster   7: n= 399  injured_frac=0.49
+    cluster   8: n= 383  injured_frac=0.22
+    cluster   2: n= 750  injured_frac=0.22
+    cluster  14: n=  71  injured_frac=0.21
+    cluster  13: n=  92  injured_frac=0.18
+
+--- clustering: marker genes removed ---
+  clusters: 16
+  ARI = 0.025   NMI = 0.052
+  injured fraction per cluster (top 6):
+    cluster   1: n= 758  injured_frac=0.62
+    cluster   8: n= 403  injured_frac=0.49
+    cluster   9: n= 384  injured_frac=0.22
+    cluster  15: n=  69  injured_frac=0.22
+    cluster   5: n= 615  injured_frac=0.21
+    cluster  13: n=  91  injured_frac=0.18
+
+==================================================================
+sensitivity: redefine injured/healthy from the marker-free clustering
+==================================================================
+  injured clusters (injured_frac >= 0.60): ['1']
+  healthy clusters (injured_frac <= 0.20): ['13', '2', '4', '6', '12', '14', '3', '10', '11', '7', '0']
+  cells: injured 758, healthy 5559
+  overlap with marker-based injured label: 468/758 (61.7%)
+  v-score concordance (marker-based vs unsupervised): Pearson r = 0.796, Spearman rho = 0.694  (n = 32238 genes)

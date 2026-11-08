@@ -1,0 +1,12 @@
+total compounds: 65, actives: 5
+EF5% = 8.00  (actives in top 5%: 2/5)
+EF10% = 4.00  (actives in top 10%: 2/5)
+EF20% = 3.00  (actives in top 20%: 3/5)
+ROC-AUC = 0.873
+
+actives ranks:
+  SB-431542: rank 2/65  aff=-10.7
+  galunisertib: rank 4/65  aff=-10.4
+  SB-505124: rank 10/65  aff=-9.7
+  LY-364947: rank 16/65  aff=-9.3
+  RepSox: rank 19/65  aff=-9.1

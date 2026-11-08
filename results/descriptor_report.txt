@@ -1,0 +1,14 @@
+ALK5 (TGFBR1) docking benchmark set
+target: ChEMBL CHEMBL4439 (human TGF-beta receptor type-1)
+actives: 120  (IC50 <= 1 uM, deduplicated, max 2 per Murcko scaffold)
+decoys : 400  (L1000 library, DUD-E matching criteria, Tanimoto < 0.35 to actives)
+ratio  : 1 : 3.3
+
+actives value ranges:
+  IC50 (nM): median 1, range 0-2
+  MW       : median 418
+
+decoys property ranges:
+  MW   : median 332, range 216-620
+  cLogP: median 3.0
+  rotB : median 4

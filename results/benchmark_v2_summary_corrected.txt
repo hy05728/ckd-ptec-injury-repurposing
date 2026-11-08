@@ -1,0 +1,13 @@
+ALK5 docking benchmark — ChEMBL-scale (corrected orientation)
+actives 120   decoys 398   ratio 1:3.3
+score = -Vina affinity (more negative = stronger binding = better)
+
+ROC-AUC  0.904   (95% CI 0.873-0.932, bootstrap s.d. 0.015)
+EF1%     4.32
+EF5%     4.15
+EF10%    3.82
+EF20%    3.11
+BEDROC20 3.800
+
+comparison with the original benchmark (5 actives + 60 decoys):
+  ROC-AUC 0.873   EF5% 4.3   BEDROC20 3.580

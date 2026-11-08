@@ -1,0 +1,11 @@
+gene,vscore_GSE131882,vscore_Lake2023,direction
+HAVCR1,0.344,0.086,same
+VCAM1,1.03,0.079,same
+LCN2,0.083,-0.055,opposite
+KRT8,0.774,0.005,same
+KRT18,0.218,0.0,same
+SPP1,0.075,0.229,same
+SOX9,0.237,0.008,same
+ALDOB,-0.227,-0.121,same
+LRP2,0.019,0.045,same
+SLC34A1,-0.178,0.033,opposite

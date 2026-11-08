@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+*.Rproj
+
+# Large inputs (download via scripts/00_download.py)
+data/
+*.h5ad
+*.tar
+*.rds
+*.rds.gz
+*.mtx
+*.gz
+
+# MD outputs
+md/runs/
+md/*.dcd
+md/*.chk
+md/*.log
+md/**/*.prmtop
+md/**/*.inpcrd
+
+# Figures intermediate
+figs/*.png
+
+# OS
+.DS_Store
+Thumbs.db

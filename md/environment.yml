@@ -1,0 +1,13 @@
+name: md
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openmm>=8.0
+  - ambertools>=23.0
+  - mdtraj
+  - parmed
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
